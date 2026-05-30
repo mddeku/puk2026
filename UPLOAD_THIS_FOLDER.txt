@@ -1,0 +1,16 @@
+Upload the CONTENTS of this folder to your GitHub Pages repository.
+
+This version is plain HTML and CSS. It does not use Next.js, React, or _next assets.
+
+Files to upload:
+- index.html
+- program.html
+- faculty.html
+- venue.html
+- styles.css
+- .nojekyll
+
+GitHub Pages settings:
+- Source: Deploy from a branch
+- Branch: main
+- Folder: / (root)
