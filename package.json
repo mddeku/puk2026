@@ -4,15 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:pages": "next build",
+    "build": "next build --webpack",
+    "build:pages": "next build --webpack",
     "prepare:upload": "powershell -ExecutionPolicy Bypass -File scripts/prepare-github-pages-upload.ps1",
     "start": "next dev",
     "lint": "next lint"
   },
   "dependencies": {
     "lucide-react": "^0.511.0",
-    "next": "15.3.0",
+    "next": "^16.2.6",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
